@@ -1,3 +1,15 @@
+
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF)
+![Python](https://img.shields.io/badge/Python-Automation-3776AB)
+![Playwright](https://img.shields.io/badge/Playwright-Testing-2EAD33)
+![Linux](https://img.shields.io/badge/Linux-Systems-black)
+![SRE](https://img.shields.io/badge/Site_Reliability-Engineering-blue)
+
+
 # About Me
 
 Platform and Reliability Engineering leader with experience building cloud-native delivery systems, Terraform-based infrastructure, containerized workloads, and automated CI/CD pipelines. I work at the intersection of Platform Engineering, SRE, and Quality, designing systems that are observable, reproducible, and safe to deploy at scale.
@@ -42,3 +54,4 @@ Tools for LLM evaluation, guardrails, dataset generation, and automated validati
 
 LinkedIn: https://www.linkedin.com/in/thomashow/
 GitHub: https://github.com/trafik255
+

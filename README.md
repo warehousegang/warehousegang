@@ -28,21 +28,28 @@ Currently developing a portfolio of open-source examples illustrating platform e
 
 ## Featured Projects
 ### Playwright on EKS
-
-Terraform + Kubernetes example for running Playwright tests on an AWS EKS cluster.
+Terraform + Kubernetes example for running Playwright tests on an AWS EKS cluster.  
 Repo: https://github.com/trafik255/playwright-on-eks
 
-### Platform Engineering Starter Kit (in progress)
+### Platform Engineering Starter Kit
+Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
+Repo: https://github.com/trafik255/platform-engineering-starter-kit
 
-Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.
+### Reliability Engineering Patterns
+A curated library of patterns for availability, resilience, scalability, observability, deployments, and security. Includes examples in Terraform, Kubernetes, and GitHub Actions.  
+Repo: https://github.com/trafik255/reliability-engineering-patterns
 
-### Reliability Engineering Patterns (in progress)
+### Incident Response Handbook
+A practical framework for on-call operations, severity models, escalation paths, communication playbooks, runbooks, SLIs/SLOs, and postmortem standards.  
+Repo: https://github.com/trafik255/incident-response-handbook
 
-Examples of SLO/SLI definitions, observability configs, incident response templates, and reliability-focused automation.
+### Reliability Reference Architecture
+A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
+Repo: https://github.com/trafik255/reliability-reference-architecture
 
 ### QA-AI Framework
-
-Tools for LLM evaluation, guardrails, dataset generation, and automated validation using AWS Bedrock.
+Tools for LLM evaluation, guardrails, goldset/red-team dataset generation, scoring logic, and automated validation using AWS Bedrock models.  
+Repo: https://github.com/trafik255/qa-ai-lite
 
 ## What I’m Working On
 

@@ -40,5 +40,5 @@ Tools for LLM evaluation, guardrails, dataset generation, and automated validati
 
 ## Contact
 
-LinkedIn: https://www.linkedin.com/in/thomas-howard
+LinkedIn: https://www.linkedin.com/in/thomashow/
 GitHub: https://github.com/trafik255

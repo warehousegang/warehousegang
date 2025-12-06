@@ -53,5 +53,5 @@ Repo: https://github.com/trafik255/reliability-reference-architecture
 ## Contact
 
 LinkedIn: https://www.linkedin.com/in/thomashow/
-GitHub: https://github.com/trafik255
+GitHub:   https://github.com/trafik255
 

@@ -19,13 +19,13 @@ My background spans AWS, Terraform, Kubernetes, GitHub Actions, distributed test
 I’m currently developing a portfolio of open-source reference implementations showcasing platform engineering patterns, IaC architectures, Kubernetes platform design, and cloud-native automation workflows.
 
 ## Technical Focus
-* Cloud Infrastructure: AWS (ECS, EKS, VPC, IAM, EventBridge, CloudWatch)
-* Infrastructure as Code: Terraform (modules, environments, automated provisioning)
-* CI/CD: GitHub Actions, containerized pipelines, artifact workflows
-* Kubernetes: workload orchestration, namespaces, jobs, cluster configuration
-* Reliability: SLO/SLI design, observability patterns, metrics, logging architectures
-* Test Platforms: Playwright, Pytest, distributed browser execution
-* AI Quality: dataset generation, evaluation pipelines, LLM model checks (Bedrock)
+Cloud Architecture: AWS compute platforms (ECS/EKS), VPC design, IAM, event-driven systems, operational telemetry
+Infrastructure as Code: Terraform module ecosystems, reusable blueprints, multi-environment automation
+CI/CD Architecture: GitHub Actions platforms, container-native pipelines, deployment automation at scale
+Kubernetes Platform Engineering: Cluster architecture, multi-namespace design, workload orchestration, scaling strategies
+Reliability Engineering: SLO/SLI governance, metrics/logging architecture, observability systems, operational excellence
+Test Platform Engineering: Distributed test execution, Playwright/Pytest integration, pipeline-driven validation systems
+AI Reliability: Dataset pipelines, evaluation frameworks, LLM behavior validation and guardrail checks (Bedrock)
 
 ## Featured Projects
 ### Platform Reference Architecture 

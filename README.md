@@ -1,5 +1,6 @@
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF)
@@ -26,35 +27,34 @@ Currently developing a portfolio of open-source examples illustrating platform e
 * AI Quality: dataset generation, evaluation pipelines, LLM model checks (Bedrock)
 
 ## Featured Projects
+### Platform Reference Architecture
+A comprehensive reference architecture for building cloud-native platforms using Terraform, AWS ECS/EKS, GitHub
+Actions, and observability best practices.
+Repo: https://github.com/trafik255/platform-reference-architecture 
 
-### Playwright on EKS (In DEV)
+### Playwright on EKS
 Terraform + Kubernetes example for running Playwright tests on an AWS EKS cluster.  
-Repo: [https://github.com/trafik255/playwright-on-eks](https://github.com/trafik255/playwright-eks)
+Repo: https://github.com/trafik255/playwright-on-eks
 
-### Platform Engineering Starter Repo (TESTING)
+### Platform Engineering Starter Kit
 Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
 Repo: https://github.com/trafik255/platform-engineering-starter-kit
 
-### Reliability Engineering Patterns (In DEV)
+### Reliability Engineering Patterns
 A curated library of patterns for availability, resilience, scalability, observability, deployments, and security. Includes examples in Terraform, Kubernetes, and GitHub Actions.  
 Repo: https://github.com/trafik255/reliability-engineering-patterns
 
-### Incident Response Handbook (In DEV)
+### Incident Response Handbook
 A practical framework for on-call operations, severity models, escalation paths, communication playbooks, runbooks, SLIs/SLOs, and postmortem standards.  
 Repo: https://github.com/trafik255/incident-response-handbook
 
-### Reliability Reference Architecture (In DEV)
+### Reliability Reference Architecture
 A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
 Repo: https://github.com/trafik255/reliability-reference-architecture
 
-### QE-AI Framework (In DEV)
+### QA-AI Framework
 Tools for LLM evaluation, guardrails, goldset/red-team dataset generation, scoring logic, and automated validation using AWS Bedrock models.  
 Repo: https://github.com/trafik255/qa-ai-lite
-
-### Kubernetes Observability Stack (TESTING)
-A fully codified observability stack for Kubernetes, including Prometheus metrics collection, Grafana dashboards, Loki log aggregation, and Fluent Bit log forwarding.  
-Repo: https://github.com/trafik255/k8s-observability-stack
-
 
 ## What I’m Working On
 

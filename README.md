@@ -31,7 +31,7 @@ Currently developing a portfolio of open-source examples illustrating platform e
 Terraform + Kubernetes example for running Playwright tests on an AWS EKS cluster.  
 Repo: [https://github.com/trafik255/playwright-on-eks](https://github.com/trafik255/playwright-eks)
 
-### Platform Engineering Starter Repo (Complete)
+### Platform Engineering Starter Repo (COMPLETE)
 Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
 Repo: https://github.com/trafik255/platform-engineering-starter-kit
 
@@ -51,7 +51,7 @@ Repo: https://github.com/trafik255/reliability-reference-architecture
 Tools for LLM evaluation, guardrails, goldset/red-team dataset generation, scoring logic, and automated validation using AWS Bedrock models.  
 Repo: https://github.com/trafik255/qa-ai-lite
 
-### Kubernetes Observability Stack (WIP)
+### Kubernetes Observability Stack (COMPLETE)
 A fully codified observability stack for Kubernetes, including Prometheus metrics collection, Grafana dashboards, Loki log aggregation, and Fluent Bit log forwarding.  
 Repo: https://github.com/trafik255/k8s-observability-stack
 

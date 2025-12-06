@@ -27,31 +27,31 @@ Currently developing a portfolio of open-source examples illustrating platform e
 
 ## Featured Projects
 
-### Playwright on EKS (WIP)
+### Playwright on EKS (In DEV)
 Terraform + Kubernetes example for running Playwright tests on an AWS EKS cluster.  
 Repo: [https://github.com/trafik255/playwright-on-eks](https://github.com/trafik255/playwright-eks)
 
-### Platform Engineering Starter Repo (COMPLETE)
+### Platform Engineering Starter Repo (TESTING)
 Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
 Repo: https://github.com/trafik255/platform-engineering-starter-kit
 
-### Reliability Engineering Patterns (WIP)
+### Reliability Engineering Patterns (In DEV)
 A curated library of patterns for availability, resilience, scalability, observability, deployments, and security. Includes examples in Terraform, Kubernetes, and GitHub Actions.  
 Repo: https://github.com/trafik255/reliability-engineering-patterns
 
-### Incident Response Handbook (WIP)
+### Incident Response Handbook (In DEV)
 A practical framework for on-call operations, severity models, escalation paths, communication playbooks, runbooks, SLIs/SLOs, and postmortem standards.  
 Repo: https://github.com/trafik255/incident-response-handbook
 
-### Reliability Reference Architecture (WIP)
+### Reliability Reference Architecture (In DEV)
 A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
 Repo: https://github.com/trafik255/reliability-reference-architecture
 
-### QE-AI Framework (WIP)
+### QE-AI Framework (In DEV)
 Tools for LLM evaluation, guardrails, goldset/red-team dataset generation, scoring logic, and automated validation using AWS Bedrock models.  
 Repo: https://github.com/trafik255/qa-ai-lite
 
-### Kubernetes Observability Stack (COMPLETE)
+### Kubernetes Observability Stack (TESTING)
 A fully codified observability stack for Kubernetes, including Prometheus metrics collection, Grafana dashboards, Loki log aggregation, and Fluent Bit log forwarding.  
 Repo: https://github.com/trafik255/k8s-observability-stack
 

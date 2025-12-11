@@ -25,7 +25,7 @@ I’m currently developing a portfolio of open-source reference implementations 
 * **Test Platform Engineering:** Distributed test execution, Playwright/Pytest integration, pipeline-driven validation systems for QE teams.
 * **AI Reliability:** Dataset pipelines, evaluation frameworks, LLM behavior validation and guardrail checks (Bedrock)
 
-## ## **What I’m Working On**
+## **What I’m Working On**
 ### Platform Reference Architecture 
 A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
 

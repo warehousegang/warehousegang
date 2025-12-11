@@ -35,9 +35,16 @@ Complete Kubernetes observability platform built with Prometheus, Grafana, Loki,
 ### Platform Engineering Starter Kit 
 Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
 
-### Reliability Reference Architecture 
-A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
+### Incident Response Handbook
+A practical, production-ready handbook defining incident response workflows, escalation paths, communication patterns, postmortem structures, severity taxonomies, and operational readiness processes.
 
+### Reliability Engineering Patterns
+A curated library of production-ready templates for designing observable, resilient, and scalable systems.
+Covers deployment strategies, DR patterns, telemetry configurations, and best-practice reliability engineering components.
+
+### Platform Engineering Starter Kit
+A complete starter kit for Infrastructure-as-Code–driven platform provisioning, including Terraform modules, ECS/ECR service templates, CloudWatch logging integrations, and GitHub Actions pipelines with OIDC authentication.
+Serves as a foundation for teams moving toward modern platform engineering practices.
 
 
 

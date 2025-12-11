@@ -25,17 +25,21 @@ I’m currently developing a portfolio of open-source reference implementations 
 * **Test Platform Engineering:** Distributed test execution, Playwright/Pytest integration, pipeline-driven validation systems for QE teams.
 * **AI Reliability:** Dataset pipelines, evaluation frameworks, LLM behavior validation and guardrail checks (Bedrock)
 
-## Featured Projects
+## ## **What I’m Working On**
 ### Platform Reference Architecture 
 A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
-Repo: https://github.com/trafik255/platform-reference-architecture 
+
+### Kubernetes Observability Stack 
+Complete Kubernetes observability platform built with Prometheus, Grafana, Loki, Alertmanager, Tempo, and OpenTelemetry. Provides metrics, logs, traces, dashboards, and alerting rules for deep visibility into containerized systems.
+
+### Platform Engineering Starter Kit 
+Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
+
+### Reliability Reference Architecture 
+A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
 
 
-## **What I’m Working On**
 
-- Building open-source reference implementations for **platform engineering** and **reliability systems**  
-- Enhancing **IaC** and **Kubernetes** patterns across personal projects  
-- Developing **cloud-native automation** workflows and **test orchestration** examples  
 
 
 ## Contact

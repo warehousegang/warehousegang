@@ -39,7 +39,7 @@ A practical, production-ready handbook defining incident response workflows, esc
 A curated library of production-ready templates for designing observable, resilient, and scalable systems.
 Covers deployment strategies, DR patterns, telemetry configurations, and best-practice reliability engineering components.
 
-### Platform Engineering Starter Kit
+### Platform Engineering Starter Kit (Active WIP)
 A complete starter kit for Infrastructure-as-Code–driven platform provisioning, including Terraform modules, ECS/ECR service templates, CloudWatch logging integrations, and GitHub Actions pipelines with OIDC authentication.
 Serves as a foundation for teams moving toward modern platform engineering practices.
 https://github.com/trafik255/platform-engineering-starter-kit/ 

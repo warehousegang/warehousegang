@@ -10,7 +10,7 @@
 
 # About Me
 
-Platform & Reliability Engineering leader focused on building cloud-native delivery systems, Terraform-driven infrastructure, resilient Kubernetes workloads, and automated CI/CD platforms. I work at the intersection of Platform Engineering, SRE, and Quality, designing systems that are observable, reproducible, and safe to deploy at scale.
+Staff Platform Engineer | SRE focused on building cloud-native delivery systems, Terraform-driven infrastructure, resilient Kubernetes workloads, and automated CI/CD platforms. I work at the intersection of Platform Engineering, SRE, and Quality, designing systems that are observable, reproducible, and safe to deploy at scale.
 
 My background spans AWS, Terraform, Kubernetes, observability, GitHub Actions, distributed testing platform, and end-to-end reliability engineering. I build infrastructure and automation that reduce operational burden and increase development velocity.
 

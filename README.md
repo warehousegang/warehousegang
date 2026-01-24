@@ -1,44 +1,53 @@
 
-## **About Me**
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF)
+![Python](https://img.shields.io/badge/Python-Automation-3776AB)
+![Linux](https://img.shields.io/badge/Linux-Systems-black)
+![SRE](https://img.shields.io/badge/Site_Reliability-Engineering-blue)
 
-**Director of Quality Engineering** focused on building **automation-first, platform-scale quality systems** for complex SaaS and regulated environments.
 
-I design and lead **test automation platforms**, **CI/CD quality gates**, and **cloud-based QA infrastructure** that enable teams to ship faster without sacrificing release confidence. My work spans **Playwright-based test systems**, **distributed test execution**, **AWS-hosted QA platforms**, and **AI-assisted testing frameworks**.
+# About Me 
 
-At Snap eHealth, I built modern **Quality Engineering platforms** from the ground up — including a large-scale **AI testing system** with **quality oracles** and a **scenario factory validating 50,000+ prompt cases** — and led the transformation from **manual QA to risk-based, pipeline-integrated Quality Engineering**.
+Platform & Reliability Engineering leader focused on building cloud-native delivery systems, Terraform-driven infrastructure, resilient Kubernetes workloads, and automated CI/CD platforms. I work at the intersection of Platform Engineering, SRE, and Quality, designing systems that are observable, reproducible, and safe to deploy at scale.
 
-This GitHub serves as a **portfolio of reference implementations** demonstrating how modern **Quality Engineering organizations** build scalable, maintainable test systems and quality infrastructure in the cloud.
+My background spans AWS, Terraform, Kubernetes, observability, GitHub Actions, distributed testing platform, and end-to-end reliability engineering. I build infrastructure and automation that reduce operational burden and increase development velocity.
 
----
+I’m currently developing a portfolio of open-source reference implementations showcasing platform engineering patterns, IaC architectures, Kubernetes platform design, and cloud-native automation workflows.
 
-## **Technical Focus**
+## Technical Focus
+* **Cloud Architecture:** AWS compute platforms (ECS/EKS), VPC design, IAM, event-driven systems, operational telemetry
+* **Infrastructure as Code:** Terraform module ecosystems, reusable blueprints, multi-environment automation
+* **CI/CD Architecture:** GitHub Actions platforms, container-native pipelines, deployment automation at scale
+* **Kubernetes Platform Engineering:** Cluster architecture, multi-namespace design, workload orchestration, scaling strategies
+* **Reliability Engineering:** SLO/SLI governance, metrics/logging architecture, observability systems, operational excellence
+* **Test Platform Engineering:** Distributed test execution, Playwright/Pytest integration, pipeline-driven validation systems for QE teams.
+* **AI Reliability:** Dataset pipelines, evaluation frameworks, LLM behavior validation and guardrail checks (Bedrock)
 
-- **Quality Engineering Leadership:** Automation-first strategy, risk-based testing, release readiness, quality metrics  
-- **Test Automation Platforms:** Playwright, Pytest, large-scale distributed test execution  
-- **CI/CD Quality Architecture:** Pipeline-integrated validation, automated quality gates, artifact-driven workflows  
-- **Cloud-Based QA Infrastructure:** AWS (ECS/ECR, IAM, CloudWatch), Docker, Terraform  
-- **AI-Assisted Testing:** Scenario generation, quality oracles, regression evaluation, guardrail validation  
-- **Regulated Software Quality:** Audit-ready workflows, compliance-aligned release processes  
+## **What I’m Working On**
+### Platform Reference Architecture 
+A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
 
----
+### Kubernetes Observability Stack 
+Complete Kubernetes observability platform built with Prometheus, Grafana, Loki, Alertmanager, Tempo, and OpenTelemetry. Provides metrics, logs, traces, dashboards, and alerting rules for deep visibility into containerized systems.
 
-## **What I’m Building**
+### Incident Response Handbook
+A practical, production-ready handbook defining incident response workflows, escalation paths, communication patterns, postmortem structures, severity taxonomies, and operational readiness processes.
 
-### **Quality Engineering Platform Reference Kits**
-Production-grade reference implementations for building **QE-owned automation platforms** using Terraform, containerized test runners, and CI/CD-driven validation pipelines.
+### Reliability Engineering Patterns
+A curated library of production-ready templates for designing observable, resilient, and scalable systems.
+Covers deployment strategies, DR patterns, telemetry configurations, and best-practice reliability engineering components.
 
-### **Distributed Test Execution Frameworks**
-Scalable test execution systems supporting **parallel Playwright and Pytest workloads**, optimized for **signal quality** and **fast feedback**.
+### Platform Engineering Starter Kit
+A complete starter kit for Infrastructure-as-Code–driven platform provisioning, including Terraform modules, ECS/ECR service templates, CloudWatch logging integrations, and GitHub Actions pipelines with OIDC authentication.
+Serves as a foundation for teams moving toward modern platform engineering practices.
 
-### **AI Testing & Evaluation Systems**
-Frameworks for validating **AI-assisted features** using **scenario factories**, **automated oracles**, and **repeatable regression testing**.
 
-### **Incident & Release Readiness Playbooks**
-Practical templates for **quality-driven release decisions**, defect triage, and production readiness reviews.
 
----
 
-## **Contact**
+## Contact
 
-- **LinkedIn:** https://www.linkedin.com/in/thomashow  
-- **GitHub:** https://github.com/trafik255  
+LinkedIn: https://www.linkedin.com/in/thomashow/
+GitHub:   https://github.com/trafik255
+

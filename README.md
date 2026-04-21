@@ -16,8 +16,8 @@ I build cloud-native platforms that balance reliability, simplicity, cost, and d
 
 My work spans end-to-end platform design—from infrastructure and CI/CD systems to observability and incident response—grounded in real production challenges rather than theoretical architectures.
 
-## I’ve led efforts to:
-
+## My recent work includes:
+* [VBC360 Dashboard](https://github.com/warehousegang/vbc360-dashboard) — Designed, built, and operated the full-stack application and platform, including infrastructure, CI/CD, and deployment architecture.
 * Rebuild and stabilize CI/CD systems under failure
 * Design distributed test execution platforms on ECS
 * Implement infrastructure and security controls to mitigate production traffic spikes and cost risks

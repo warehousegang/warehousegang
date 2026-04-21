@@ -10,41 +10,35 @@
 
 # About Me 
 
-Platform & Reliability Engineering leader focused on building cloud-native delivery systems, Terraform-driven infrastructure, resilient Kubernetes workloads, and automated CI/CD platforms. I work at the intersection of Platform Engineering, SRE, and Quality, designing systems that are observable, reproducible, and safe to deploy at scale.
+Platform & Reliability Engineer focused on designing pragmatic, production-ready systems under real-world constraints.
 
-My background spans AWS, Terraform, Kubernetes, observability, GitHub Actions, distributed testing platform, and end-to-end reliability engineering. I build infrastructure and automation that reduce operational burden and increase development velocity.
+I build cloud-native platforms that balance reliability, simplicity, cost, and developer velocity, avoiding unnecessary complexity while enabling systems to scale safely over time.
 
-I’m currently developing a portfolio of open-source reference implementations showcasing platform engineering patterns, IaC architectures, Kubernetes platform design, and cloud-native automation workflows.
+My work spans end-to-end platform design—from infrastructure and CI/CD systems to observability and incident response—grounded in real production challenges rather than theoretical architectures.
 
-## Technical Focus
-* **Cloud Architecture:** AWS compute platforms (ECS/EKS), VPC design, IAM, event-driven systems, operational telemetry
-* **Infrastructure as Code:** Terraform module ecosystems, reusable blueprints, multi-environment automation
-* **CI/CD Architecture:** GitHub Actions platforms, container-native pipelines, deployment automation at scale
-* **Kubernetes Platform Engineering:** Cluster architecture, multi-namespace design, workload orchestration, scaling strategies
-* **Reliability Engineering:** SLO/SLI governance, metrics/logging architecture, observability systems, operational excellence
-* **Test Platform Engineering:** Distributed test execution, Playwright/Pytest integration, pipeline-driven validation systems for QE teams.
-* **AI Reliability:** Dataset pipelines, evaluation frameworks, LLM behavior validation and guardrail checks (Bedrock)
+# I’ve led efforts to:
 
-## **What I’m Working On**
-### Platform Reference Architecture 
-A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
+Rebuild and stabilize CI/CD systems under failure
+Design distributed test execution platforms on ECS
+Implement infrastructure and security controls to mitigate production traffic spikes and cost risks
+Build full-stack platform architectures (BusyNow) from infrastructure to application layer
 
-### Kubernetes Observability Stack 
-Complete Kubernetes observability platform built with Prometheus, Grafana, Loki, Alertmanager, Tempo, and OpenTelemetry. Provides metrics, logs, traces, dashboards, and alerting rules for deep visibility into containerized systems.
+# Technical focus areas include:
 
-### Incident Response Handbook
-A practical, production-ready handbook defining incident response workflows, escalation paths, communication patterns, postmortem structures, severity taxonomies, and operational readiness processes.
+Cloud Architecture: AWS (ECS/EKS), VPC design, IAM, cost-aware infrastructure decisions
+Infrastructure as Code: Terraform systems for multi-environment, reproducible infrastructure
+CI/CD Platforms: GitHub Actions, container-based pipelines, deployment safety and rollback strategies
+Kubernetes & Compute Strategy: Applying Kubernetes where it adds value—not by default
+Reliability Engineering: SLO-driven thinking, observability systems, failure-mode design, incident response
+Test Platform Engineering: Distributed execution systems, pipeline-integrated validation at scale
+AI Reliability: Evaluation frameworks, guardrails, and system behavior validation
 
-### Reliability Engineering Patterns
-A curated library of production-ready templates for designing observable, resilient, and scalable systems.
-Covers deployment strategies, DR patterns, telemetry configurations, and best-practice reliability engineering components.
+Current work focuses on building production-grade reference architectures and platform patterns, including:
 
-### Platform Engineering Starter Kit
-A complete starter kit for Infrastructure-as-Code–driven platform provisioning, including Terraform modules, ECS/ECR service templates, CloudWatch logging integrations, and GitHub Actions pipelines with OIDC authentication.
-Serves as a foundation for teams moving toward modern platform engineering practices.
-
-
-
+Cloud-native platform architectures on AWS
+Kubernetes observability systems (Prometheus, Grafana, OTel stack)
+CI/CD and deployment safety patterns (blue/green, canary, rollback)
+Reliability playbooks and incident response frameworks
 
 ## Contact
 

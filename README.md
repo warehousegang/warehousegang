@@ -18,10 +18,10 @@ My work spans end-to-end platform design—from infrastructure and CI/CD systems
 
 ## I’ve led efforts to:
 
-Rebuild and stabilize CI/CD systems under failure
-Design distributed test execution platforms on ECS
-Implement infrastructure and security controls to mitigate production traffic spikes and cost risks
-Build full-stack platform architectures ([BusyNow](https://busynow.app)) from infrastructure to application layer
+* Rebuild and stabilize CI/CD systems under failure
+* Design distributed test execution platforms on ECS
+* Implement infrastructure and security controls to mitigate production traffic spikes and cost risks
+* Built a full-stack platform architecture and app ([BusyNow](https://busynow.app)) from infrastructure to application layer
 
 ## Technical focus areas include:
 

@@ -8,91 +8,272 @@
 ![SRE](https://img.shields.io/badge/Site_Reliability-Engineering-blue)
 ![Yardmaster](https://img.shields.io/badge/Yardmaster-K8s_Capacity_Intelligence-16A34A)
 
-# About Me
+# Thomas Howard
 
-Platform & Reliability Engineer focused on building cloud-native systems that survive contact with production.
+**Chief Technology Officer | AI-First Engineering | Enterprise Healthcare Technology**
 
-I design AWS platforms with a practical bias: reliable enough to trust, simple enough to operate, cost-aware enough to scale, and automated enough that teams can ship without turning deployment into a ceremony. My recent work has moved deeply into production Kubernetes on EKS, including Helm-based workload packaging, ArgoCD-driven GitOps delivery, and Karpenter-backed compute strategy.
+I'm a hands-on technology executive and engineer focused on building AI-first engineering organizations, enterprise healthcare products, and the platforms that make them possible.
 
-I like the hard middle of platform engineering: where infrastructure, CI/CD, observability, security controls, developer experience, and incident response all meet. The goal is not just to make something deploy. The goal is to make it understandable, recoverable, repeatable, and safe to change.
+As CTO at Snap eHealth, I lead technical strategy across architecture, AI engineering, platform and developer experience, reliability, and enterprise product development.
 
-## Featured Project: Yardmaster
+My current focus is building an engineering model where small, highly technical teams use AI agents throughout planning, implementation, testing, review, and operations — while maintaining human accountability, deterministic quality controls, security boundaries, and production discipline.
 
-<p align="center">
-  <a href="https://github.com/warehousegang/yardmaster">
-    <img src="assets/yardmaster.png" alt="Yardmaster logo" width="200">
-  </a>
-</p>
+I still build. My engineering background spans platform engineering, cloud infrastructure, SRE, quality engineering, CI/CD, observability, Kubernetes, AWS, Python, Go, and TypeScript.
 
-[Yardmaster](https://github.com/warehousegang/yardmaster) is a Kubernetes capacity intelligence tool I am building for platform teams. It watches workloads, nodes, scheduling events, and node pools, then turns raw cluster state into clear explanations and recommendations.
+---
 
-The goal is to help operators quickly understand why workloads are not scheduling, where capacity is being wasted, and which placement or resource constraints are making the cluster harder to operate. Yardmaster focuses on the problems Kubernetes teams actually chase during incidents and capacity reviews: pending pods, missing requests, overloaded node pools, inefficient bin packing, and workloads constrained by labels, taints, affinity, or topology rules.
+## What I'm Working On
 
-In Yardmaster's model, workloads are Cargo, node pools are Tracks, and recommendations are Dispatches. The tool acts like an operations coordinator for Kubernetes capacity, helping teams move from scattered signals to actionable decisions.
+### AI-First Engineering
 
-## What I Build
+I'm designing and implementing an engineering operating model built around AI-native development.
 
-* Production AWS platforms using EKS, VPC networking, IAM, ALB, CloudFront, WAF, and cost controls
-* Kubernetes delivery systems using Helm, ArgoCD, GitOps workflows, environment promotion, and rollback patterns
-* EKS compute models using Karpenter, workload-aware node provisioning, scheduling constraints, and cost-aware scaling
-* Kubernetes capacity intelligence tools that explain scheduling failures, capacity waste, and workload placement constraints
-* Terraform infrastructure for reproducible multi-environment systems and platform foundations
-* CI/CD systems with GitHub Actions, containerized pipelines, deployment gates, validation, and failure recovery
-* Observability foundations with metrics, logs, traces, dashboards, alerting, and incident-oriented runbooks
-* Security and resilience controls for bot traffic, API abuse, production spikes, and external service cost risk
+The goal isn't simply to use AI to write more code. It's to redesign the software development lifecycle around the leverage AI agents provide while preserving the engineering controls required to safely operate production systems.
 
-## Recent Work
+Areas I'm actively working on include:
 
-* Built and evolved EKS platform patterns with Helm charts, ArgoCD GitOps delivery, and Karpenter-driven node provisioning.
-* Rebuilt and stabilized CI/CD systems under failure, with emphasis on repeatability, rollback, and clearer operational ownership.
-* Designed distributed test execution patterns for Kubernetes-native CI validation and scalable workload execution.
-* Implemented infrastructure and security controls to mitigate production traffic spikes, bot behavior, and API-driven cost risks.
-* Designed and built [BusyNow](https://busynow.app) as an end-to-end cloud-native platform, owning application architecture, AWS infrastructure, and CI/CD.
-* For hiring managers and recruiters who want more context, see [BusyNow public](https://github.com/warehousegang/busynow-public).
+- AI agent orchestration and engineering workflows
+- Human-defined intent and acceptance criteria
+- Agent-assisted planning and implementation
+- Deterministic testing and independent verification
+- AI-assisted code review with human approval
+- Risk-based engineering controls
+- Credential and permission boundaries
+- CI/CD and release evidence
+- Agent observability and auditability
+- Safe paths from Linear → code → evidence → production
 
-## Technical Depth
+A principle I use when thinking about this:
 
-**Kubernetes & EKS**
+> **AI should increase engineering leverage without inheriting engineering authority.**
 
-* EKS cluster architecture, workload isolation, namespace strategy, ingress patterns, service exposure, and AWS integration
-* Helm chart design for repeatable application packaging, configuration layering, and environment-specific values
-* ArgoCD application models, GitOps sync workflows, declarative delivery, drift detection, and promotion patterns
-* Karpenter provisioning strategy, node pool design, right-sized compute, disruption handling, and cost-aware autoscaling
-* Kubernetes scheduling primitives including requests, limits, taints, tolerations, affinity, disruption budgets, and health probes
+---
 
-**AWS Platform Engineering**
+### Enterprise Healthcare Technology
 
-* VPC design, private/public subnet strategy, routing, security groups, IAM boundaries, and service-to-service access
-* Kubernetes platform design for production workloads, including cluster boundaries, delivery workflows, and operational ownership
-* ALB, CloudFront, WAF, DNS, TLS, and edge controls for secure public application delivery
-* Cost-aware infrastructure decisions, especially around autoscaling, traffic spikes, third-party APIs, and over-provisioning risk
+At Snap, I'm leading technical direction across a new generation of enterprise healthcare products spanning:
 
-**Infrastructure as Code & Delivery**
+- AI-powered patient engagement
+- Referral intelligence
+- Healthcare workflow automation
+- EHR-integrated experiences
+- Enterprise integrations
+- Shared platform capabilities
 
-* Terraform modules, multi-environment state strategy, reproducible infrastructure, and reviewable change workflows
-* GitHub Actions pipelines for build, test, container publishing, infrastructure validation, and deployment orchestration
-* Deployment safety patterns including blue/green, canary, staged rollout, rollback, smoke tests, and health-based promotion
-* GitOps operating models that keep production state reviewable, auditable, and recoverable from source control
+A major architectural focus is building reusable products rather than creating a different application for every enterprise customer.
 
-**Reliability & Operations**
+Customer requirements should configure the product — not redefine it.
 
-* SLO-minded service design, failure-mode analysis, alert quality, incident response, and practical runbooks
-* Observability systems using Prometheus, Grafana, OpenTelemetry, structured logs, and application-level health signals
-* Production guardrails for rate limiting, bot protection, API failure handling, degraded modes, and cost containment
-* Test platform engineering for distributed execution, pipeline feedback, and system behavior validation
+That means shared architecture, common capabilities, explicit integration boundaries, controlled configuration, and a consistent product experience across customers.
 
-## Current Focus
+---
 
-I am currently building production-grade platform reference architectures and operational patterns around:
+### Platform & Developer Experience
 
-* EKS platform foundations with Helm, ArgoCD, GitOps, and Karpenter
-* [Yardmaster](https://github.com/warehousegang/yardmaster), a Kubernetes capacity intelligence tool for scheduling, utilization, and node pool recommendations
-* Kubernetes observability and incident response workflows
-* Deployment safety patterns for application and infrastructure changes
-* AWS cost controls, security boundaries, and reliability guardrails
-* AI reliability work involving evaluation frameworks, guardrails, and behavior validation
+I continue to work deeply in platform engineering and developer experience.
 
-## Contact
+I'm interested in the systems that allow engineers — and increasingly AI agents — to safely move through:
 
-LinkedIn: https://www.linkedin.com/in/thomashow/  
-GitHub: https://github.com/warehousegang
+**Idea → Plan → Code → Verification → Review → Release → Production Evidence**
+
+That includes:
+
+- Internal developer platforms
+- CI/CD
+- Infrastructure automation
+- Developer workflows
+- Quality engineering
+- Observability
+- Reliability engineering
+- Release safety
+- Service ownership
+- Architecture standards
+- Engineering documentation
+- AI engineering controls
+
+I view platform engineering as a product discipline: the platform should make the safest and most repeatable engineering path the easiest path.
+
+---
+
+## Selected Engineering Work
+
+### BusyNow
+
+Founder and builder of a live production SaaS application.
+
+I own the full engineering path from product development through production operations, including:
+
+- Cross-platform application development
+- Backend APIs and services
+- PostgreSQL and Redis
+- Go services
+- AWS
+- Kubernetes / EKS
+- Terraform
+- Helm
+- Argo CD / GitOps
+- CI/CD
+- Observability
+- Reliability engineering
+- Security
+- Production operations
+
+The platform includes production failure-containment patterns such as caching, stale-response fallback, circuit breakers, concurrency controls, provider budgets, rate limiting, explicit degraded modes, and controlled rollback.
+
+BusyNow also serves as a hands-on environment for exploring platform engineering, Kubernetes, reliability, distributed systems, and AI-assisted software development.
+
+---
+
+### YardMaster
+
+**Go / Kubernetes / Platform Engineering**
+
+YardMaster is a Kubernetes-native advisory control plane for workload scheduling and capacity analysis.
+
+It uses Go, `controller-runtime`, and `client-go` to observe Kubernetes state and publish structured findings through a custom resource.
+
+The project explores:
+
+- Kubernetes controllers
+- Reconciliation loops
+- Custom Resource Definitions
+- Kubernetes APIs
+- Pod scheduling
+- Node capacity
+- Events and workload state
+- RBAC
+- Helm / Kustomize
+- CLI and HTTP interfaces
+- Platform automation
+
+The goal is to build platform software against Kubernetes itself rather than simply administer clusters.
+
+---
+
+## Engineering Leadership
+
+My background spans engineering leadership, platform engineering, quality engineering, DevOps, SRE, cloud infrastructure, automation, and software development.
+
+Before moving into technology leadership, I spent years building and operating the systems underneath engineering organizations.
+
+That experience shapes how I approach the CTO role.
+
+I care about:
+
+- Technology strategy tied to business outcomes
+- Small, highly leveraged engineering teams
+- Architecture that survives growth
+- Engineering economics
+- Developer experience
+- Reliability as a product capability
+- Security built into engineering workflows
+- Clear technical ownership
+- Reusable platforms over one-off solutions
+- Evidence over assumptions
+- Automation with appropriate guardrails
+
+I believe the job of technology leadership is not to maximize the amount of technology a company builds.
+
+It's to determine **which technology creates leverage for the business, how it should be built, and how the organization can operate it safely and sustainably.**
+
+---
+
+## Technical Foundation
+
+### AI & Engineering Automation
+
+- AI-first software development
+- Codex and agent-assisted engineering
+- Agent orchestration
+- AI-assisted planning and implementation
+- Automated quality engineering
+- Structured code and system analysis
+- Deterministic verification
+- Human-in-the-loop engineering controls
+- AI safety boundaries and permissions
+
+### Platform & Cloud
+
+- AWS
+- ECS / Fargate
+- Kubernetes / EKS
+- Terraform
+- Docker
+- Helm
+- Argo CD
+- GitOps
+- IAM
+- VPC
+- ECR
+- ALB
+- CloudFront
+- Route 53
+- WAF
+
+### Software & Data
+
+- Python
+- Go
+- TypeScript / JavaScript
+- React
+- REST APIs
+- PostgreSQL
+- Redis
+- Playwright
+- pytest
+
+### Delivery & Reliability
+
+- GitHub Actions
+- Jenkins
+- CI/CD
+- OpenTelemetry
+- Prometheus
+- Grafana
+- CloudWatch
+- SLIs / SLOs
+- Incident response
+- Progressive delivery
+- Production readiness
+- Failure containment
+- Observability
+
+---
+
+## Current Interests
+
+I'm particularly interested in:
+
+- AI-native engineering organizations
+- Agentic software development
+- AI engineering governance
+- Enterprise healthcare technology
+- Platform engineering
+- Internal developer platforms
+- Developer productivity
+- Engineering economics
+- Enterprise architecture
+- Reliability engineering
+- Small-team engineering leverage
+- Go and platform software
+- Kubernetes internals
+
+---
+
+## What I'm Exploring
+
+One of the questions I'm most interested in right now is:
+
+** How much software can a small group of experienced engineers safely build and operate when AI agents become a first-class part of the engineering organization?**
+
+The interesting part isn't generating more code.
+
+It's building the architecture, platform, quality system, security model, organizational structure, and engineering controls that allow that leverage to translate into reliable products and better business outcomes.
+
+---
+
+## Connect
+
+- **LinkedIn:** [Thomas Howard](YOUR_LINKEDIN_URL)
+- **BusyNow:** [BusyNow](YOUR_BUSYNOW_URL)
+- **GitHub:** You're already here.

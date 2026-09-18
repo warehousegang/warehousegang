@@ -33,8 +33,9 @@ I use BusyNow to explore Kubernetes, GitOps, platform APIs, reliability, AI-assi
 [busynow.app](https://busynow.app/)
 
 ### YardMaster
+[Yardmaster](https://github.com/warehousegang/yardmaster)
 
-A Kubernetes-native project written in Go that explores controllers, custom resources, reconciliation loops, scheduling, and platform APIs.
+A Kubernetes-native project written in Go that expores controllers, custom resources, reconciliation loops, scheduling, and platform APIs.
 
 ## What I'm writing about
 

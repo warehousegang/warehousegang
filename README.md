@@ -274,6 +274,5 @@ It's building the architecture, platform, quality system, security model, organi
 
 ## Connect
 
-- **LinkedIn:** [Thomas Howard](YOUR_LINKEDIN_URL)
-- **BusyNow:** [BusyNow](YOUR_BUSYNOW_URL)
-- **GitHub:** You're already here.
+- **LinkedIn:** [Thomas Howard](https://www.linkedin.com/in/thomashow/)
+- **BusyNow:** [BusyNow](busynow.app)

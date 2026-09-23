@@ -26,16 +26,11 @@ That's the idea behind what I call an **Engineering OS**.
 
 ### BusyNow
 
-A production application and my proving ground for Engineering OS.
+I'm the founder and builder of BusyNow, a production application and my proving ground for Engineering OS.
 
-I use BusyNow to explore Kubernetes, GitOps, platform APIs, reliability, AI-assisted engineering, and what it takes for a very small engineering organization to operate a real product.
+I use BusyNow to explore and test Kubernetes, GitOps, platform APIs, reliability, AI-assisted engineering, and what it takes for a very small engineering organization to operate a real product.
 
 [busynow.app](https://busynow.app/)
-
-### YardMaster
-[Yardmaster](https://github.com/warehousegang/yardmaster)
-
-A Kubernetes-native project written in Go that expores controllers, custom resources, reconciliation loops, scheduling, and platform APIs.
 
 ## What I'm writing about
 
@@ -51,4 +46,3 @@ Recent:
 ## Connect
 **[thomashoward.dev](https://thomashoward.dev/)**
 - **LinkedIn:** [Thomas Howard](https://www.linkedin.com/in/thomashow/)
-- **BusyNow:** [BusyNow](https://busynow.app)

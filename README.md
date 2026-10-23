@@ -1,79 +1,86 @@
 # Thomas Howard
 
-**CTO · Applied AI Engineer · Product Builder · Founder of BusyNow**
+**CTO & Head of Applied AI · Agentic Systems · Predictive Machine Learning · LLM Engineering**
 
-I'm CTO at Snap eHealth and founder of BusyNow. I build production software and the systems that allow increasingly autonomous AI agents to build, test, review, debug, and operate software safely.
+I architect and build **applied AI systems**: conversational agents, autonomous engineering workflows, predictive models, and the software that makes probabilistic behavior reliable in production.
 
-My work sits at the intersection of **applied AI, agentic systems, product engineering, platform engineering, and engineering leadership**. I stay hands-on across Python, Go, TypeScript, cloud infrastructure, Kubernetes, reliability, and production operations.
+I'm CTO at **Snap eHealth**, where I lead AI engineering across healthcare applications and stay hands-on with system architecture, implementation, evaluation, debugging, and delivery. My focus is not simply adding an LLM to a product. It's designing the complete system around the model: **tools, data, state, verification, security, human oversight, and measurable outcomes**.
 
-A lot of my work starts without a technical specification. I work from an ambiguous customer or operational problem, understand the underlying workflow, determine what should exist, and turn it into working software.
+My work spans **Python, scikit-learn, TypeScript, Go, APIs, distributed systems, AWS, and Kubernetes**. I'm especially interested in combining traditional predictive ML with LLM-powered agents so each component does the work it is best suited to do.
 
-## Selected Work
+## Applied AI engineering
 
-- **Production product delivery:** Shipped four production SaaS applications in four months, including three enterprise healthcare applications and an AI voice agent.
-- **Agentic engineering:** Built and validated governed orchestration for autonomous engineering with isolated workers, execution leases, bounded model spend, in-flight cancellation, deterministic verification, audit evidence, and human authorization.
-- **Applied AI:** Built RI, Sally, and Workflows from real healthcare operational needs, translating ambiguous workflows into working applications and agentic systems.
-- **VBC360:** Architected and built a value-based-care platform spanning product workflows, APIs, healthcare data models, integrations, and production infrastructure.
-- **Engineering automation:** Built a 2,300+ test automation platform that reduced regression validation from roughly three weeks to 30 minutes.
-- **BusyNow:** Independently conceived, built, launched, and operate a production SaaS across application code, APIs, data, AWS/EKS infrastructure, delivery, security, and reliability.
+### Agentic systems and LLM applications
 
-## What I'm working on
+At Snap, I lead engineering for **Sally**, an LLM-powered healthcare voice agent with real-time conversation, tool integration, background analysis, and structured visit-brief extraction. My work includes the architecture and production hardening required for patient-facing AI: **consent and authorization boundaries, deterministic application controls, structured outputs, scenario-based evaluations, and failure handling**.
 
-### Autonomous Engineering
+I also architect **autonomous software engineering systems** using **Codex, Symphony, and specialized agents** for implementation, testing, review, debugging, and remediation. The engineering challenge is not generating code; it's controlling what agents can do and establishing evidence that their work is safe to accept.
 
-I'm building governed infrastructure for increasingly autonomous software engineering using Codex and specialized agents across implementation, testing, review, debugging, and remediation.
+Key design concerns include:
 
-The interesting problem isn't generating more code. It's making autonomous engineering **trustworthy**.
+- **Orchestration and tool use:** agent handoffs, scoped permissions, isolated execution, and controlled access to external systems.
+- **State and reliability:** durable execution, cancellation, recovery paths, and bounded autonomous behavior.
+- **Evaluation:** structured evidence, scenario tests, deterministic verification gates, and traceable results.
+- **Safety and governance:** cost limits, auditability, human approval, and explicit authority over code merges and production changes.
 
-That means designing for:
+### Predictive machine learning
 
-- agent orchestration and tool boundaries
-- isolated and durable execution
-- context engineering and structured evidence
-- deterministic verification and evaluations
-- bounded remediation and failure recovery
-- provenance and auditability
-- execution leases, cost controls, and cancellation
-- explicit human authority over consequential actions
+I'm developing a **Physician Referral Success Predictor** to estimate whether a referral will result in a completed appointment within 30 days. It uses **Python and scikit-learn** and is being built with **synthetic healthcare data** for reproducible, privacy-conscious experimentation.
 
-My core principle is simple:
+The project is focused on the full supervised-learning workflow rather than a model demo alone:
 
-> **The model is only one component. Autonomy becomes useful when the system around the model makes its actions observable, bounded, verifiable, and accountable.**
+- Defining the prediction target and separating information available at referral time from future outcomes.
+- Engineering features from referral, provider, and scheduling signals while checking for target leakage.
+- Establishing an interpretable **logistic-regression baseline** and comparing it with more flexible classifiers as development progresses.
+- Evaluating **precision, recall, discrimination, calibration, and error patterns** rather than reporting accuracy alone.
+- Designing an inference API and examining how model probabilities can support — but not replace — deterministic eligibility and workflow rules.
 
-### Applied AI Products
+**Status:** active development; this is not represented as a production-deployed or clinically validated model.
 
-At Snap, I build AI-enabled healthcare products from real operational problems, including referral intelligence, workflow automation, patient engagement, and agentic systems.
+I'm also interested in how predictive models become **tools within agentic workflows**: a trained model computes a probability, an agent retrieves context and coordinates tools, and deterministic policies govern what can happen next.
 
-I'm particularly interested in **long-horizon agents, persistent memory, human-agent workflows, self-improving systems, and the boundary between probabilistic reasoning and deterministic control**.
+### AI evaluation and engineering intelligence
 
-### BusyNow
+I have led AI-assisted engineering and reliability work including **Amazon Bedrock LLM evaluations, goldset reference datasets, guardrails**, and an **AI-driven test-intelligence system** that turns product stories and defects into test requirements, API tests, and targeted retests.
 
-I'm the founder and builder of **BusyNow**, a live production SaaS product I built from the ground up.
+I've worked on specialized QA and SRE agents, structured findings, deterministic triage, verification gates, and human escalation. These systems reflect an engineering principle I apply across AI products:
 
-I own the entire system: product experience, APIs, Go services, PostgreSQL and Redis, AWS/EKS infrastructure, Terraform, GitOps delivery, observability, reliability, security, and ongoing production operations.
+> **Models can propose and reason. Reliable software must still verify, constrain, observe, and account for what happens.**
 
-BusyNow is also where I experiment with new approaches to AI-native product and software engineering.
+## Selected systems and projects
 
-## What I'm exploring
+| System | Engineering focus |
+| --- | --- |
+| **Sally — Conversational Healthcare AI** | LLM orchestration, real-time voice, tool execution, structured extraction, consent, evaluation, and reliability. |
+| **Symphony — Autonomous Engineering** | Multi-agent orchestration, isolated workers, execution boundaries, verification, cost controls, and human authorization. |
+| **Physician Referral Success Predictor** *(in development)* | Supervised classification, feature engineering, leakage prevention, calibration, and explainable referral predictions using synthetic data. |
+| **Referral Intelligence** | Healthcare referral workflows, provider-ranking logic, interpretable decision support, data integration, and deterministic safeguards. |
+| **AI Test Intelligence** | AI-generated test requirements and API tests, defect analysis, targeted retests, and evidence-driven quality engineering. |
+| **BusyNow** | Independently built and operated production SaaS; full-stack application engineering, APIs, databases, AWS/Kubernetes, security, and reliability. |
 
-The questions I'm most interested in now are:
+Much of my healthcare and autonomous-engineering work is proprietary to Snap; these descriptions are architectural overviews, not links to company source code. I use independent projects to demonstrate methods and implementation decisions publicly.
 
-- How far can software engineering safely become autonomous?
-- How should agents acquire tools, memory, context, and authority?
-- How do we evaluate probabilistic systems with production-level rigor?
-- How do human corrections become durable system knowledge?
-- Which agent failures should become deterministic invariants?
-- How should AI change the architecture and economics of engineering organizations?
-- What does a genuinely AI-native technology organization look like?
+## What I'm building next
+
+My public engineering work is increasingly centered on two complementary areas:
+
+1. **Predictive ML with defensible evaluation:** train/test design, interpretable baselines, model comparison, probability calibration, and trustworthy inference.
+2. **Stateful agentic applications:** graph-based workflows, tool calling, memory and context, evaluation harnesses, recovery, and human-in-the-loop controls. I'm exploring **LangChain and LangGraph** for this work, without treating framework adoption as a substitute for sound system design.
+
+The longer-term goal is to connect them: **predictive models provide evidence; agents coordinate actions; deterministic systems enforce constraints.**
+
+## Engineering background
+
+I have more than a decade of engineering leadership experience and remain a hands-on builder. At Snap, I've led delivery across enterprise healthcare products and AI applications. Earlier, I built a large-scale automated test platform with **2,300+ tests**, compressing a roughly three-week regression process into approximately **30 minutes**.
+
+I also founded [**BusyNow**](https://busynow.app/), a live SaaS application I designed, shipped, and operate across frontend, backend, data, cloud infrastructure, deployment, and production reliability. It demonstrates end-to-end execution; **Applied AI is where I'm directing my next chapter of engineering work**.
 
 ## Writing
 
-I write about what I'm actually building and learning across applied AI, autonomous engineering, engineering leadership, platform systems, Kubernetes, reliability, and product development.
+I write about the systems I'm building and the engineering decisions behind them: **LLM architectures, agent orchestration, AI evaluation, predictive modeling, failure modes, production safeguards, and technical leadership**.
 
-[**thomashoward.dev**](https://thomashoward.dev/)
+**Website:** [thomashoward.dev](https://thomashoward.dev/)
 
 ## Connect
 
-- **LinkedIn:** [Thomas Howard](https://www.linkedin.com/in/thomashow/)
-- **GitHub:** [warehousegang](https://github.com/warehousegang)
-- **BusyNow:** [busynow.app](https://busynow.app/)
+[**LinkedIn**](https://www.linkedin.com/in/thomashow/) · [**GitHub**](https://github.com/warehousegang) · [**Website**](https://thomashoward.dev/) · [**BusyNow**](https://busynow.app/)

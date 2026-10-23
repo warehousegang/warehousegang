@@ -56,7 +56,6 @@ I've worked on specialized QA and SRE agents, structured findings, deterministic
 | **Physician Referral Success Predictor** *(in development)* | Supervised classification, feature engineering, leakage prevention, calibration, and explainable referral predictions using synthetic data. |
 | **Referral Intelligence** | Healthcare referral workflows, provider-ranking logic, interpretable decision support, data integration, and deterministic safeguards. |
 | **AI Test Intelligence** | AI-generated test requirements and API tests, defect analysis, targeted retests, and evidence-driven quality engineering. |
-| **BusyNow** | Independently built and operated production SaaS; full-stack application engineering, APIs, databases, AWS/Kubernetes, security, and reliability. |
 
 Much of my healthcare and autonomous-engineering work is proprietary to Snap; these descriptions are architectural overviews, not links to company source code. I use independent projects to demonstrate methods and implementation decisions publicly.
 
@@ -73,7 +72,7 @@ The longer-term goal is to connect them: **predictive models provide evidence; a
 
 I have more than a decade of engineering leadership experience and remain a hands-on builder. At Snap, I've led delivery across enterprise healthcare products and AI applications. Earlier, I built a large-scale automated test platform with **2,300+ tests**, compressing a roughly three-week regression process into approximately **30 minutes**.
 
-I also founded [**BusyNow**](https://busynow.app/), a live SaaS application I designed, shipped, and operate across frontend, backend, data, cloud infrastructure, deployment, and production reliability. It demonstrates end-to-end execution; **Applied AI is where I'm directing my next chapter of engineering work**.
+My engineering background includes distributed systems, APIs, cloud infrastructure, and production reliability. I apply that foundation to **building, evaluating, and operating AI systems**—with a particular focus on agentic applications and predictive machine learning.
 
 ## Writing
 
@@ -83,4 +82,4 @@ I write about the systems I'm building and the engineering decisions behind them
 
 ## Connect
 
-[**LinkedIn**](https://www.linkedin.com/in/thomashow/) · [**GitHub**](https://github.com/warehousegang) · [**Website**](https://thomashoward.dev/) · [**BusyNow**](https://busynow.app/)
+[**LinkedIn**](https://www.linkedin.com/in/thomashow/) · [**GitHub**](https://github.com/warehousegang) · [**Website**](https://thomashoward.dev/)

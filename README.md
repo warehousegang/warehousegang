@@ -14,9 +14,9 @@ My work spans **Python, scikit-learn, TypeScript, Go, APIs, distributed systems,
   <img src="assets/busynow-logo-panel.svg" alt="BusyNow" width="520">
 </a>
 
-**Founder of BusyNow, a live software product running on AWS ECS.**
+**Founder of BusyNow, a software product that helps people choose nearby coffee shops, restaurants, and bars by comparing crowd information, opening hours, and distance.**
 
-BusyNow helps people decide where to go by comparing nearby coffee shops, restaurants, and bars using crowd information, opening hours, and distance. It helps reduce the guesswork of choosing a place, while clearly showing when crowd information is recent, historical, or unavailable.
+It helps reduce the guesswork of choosing a place, while clearly showing when crowd information is recent, historical, or unavailable.
 
 [Visit BusyNow](https://busynow.app/) · [About my work on BusyNow](https://thomashoward.dev/projects/busynow/)
 
@@ -63,7 +63,7 @@ I've worked on specialized QA and SRE agents, structured findings, deterministic
 
 | System | Engineering focus |
 | --- | --- |
-| **[BusyNow](https://busynow.app/)** | Live software product running on AWS ECS that helps people choose nearby coffee shops, restaurants, and bars by comparing crowd information, opening hours, and distance. |
+| **[BusyNow](https://busynow.app/)** | Software product that helps people choose nearby coffee shops, restaurants, and bars by comparing crowd information, opening hours, and distance. |
 | **Sally — Conversational Healthcare AI** | LLM orchestration, real-time voice, tool execution, structured extraction, consent, evaluation, and reliability. |
 | **Symphony — Autonomous Engineering** | Multi-agent orchestration, isolated workers, execution boundaries, verification, cost controls, and human authorization. |
 | **Physician Referral Success Predictor** *(in development)* | Supervised classification, feature engineering, leakage prevention, calibration, and explainable referral predictions using synthetic data. |

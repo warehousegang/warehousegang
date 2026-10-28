@@ -18,7 +18,7 @@ My work spans **Python, scikit-learn, TypeScript, Go, APIs, distributed systems,
 
 BusyNow helps people decide where to go by comparing nearby coffee shops, restaurants, and bars using crowd information, opening hours, and distance. It helps reduce the guesswork of choosing a place, while clearly showing when crowd information is recent, historical, or unavailable.
 
-[Visit BusyNow](https://busynow.app/) · [About my work on BusyNow](https://thomashoward.dev/about/#busynow)
+[Visit BusyNow](https://busynow.app/) · [About my work on BusyNow](https://thomashoward.dev/projects/busynow/)
 
 ## Applied AI engineering
 

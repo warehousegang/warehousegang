@@ -1,10 +1,10 @@
 # Thomas Howard
 
-**CTO & Head of Applied AI · Agentic Systems · Predictive Machine Learning · LLM Engineering**
+**CTO & Head of Applied AI · Agentic Systems · Healthcare Voice AI · AI Evaluation & Safety**
 
-I architect and build **applied AI systems**: conversational agents, autonomous engineering workflows, predictive models, and the software that makes probabilistic behavior reliable in production.
+I build **production LLM agents and the controls that make them safe to ship**, with a focus on healthcare voice AI, agentic systems, and evaluation.
 
-I'm CTO at **Snap eHealth**, where I lead AI engineering across healthcare applications and stay hands-on with system architecture, implementation, evaluation, debugging, and delivery. My focus is not simply adding an LLM to a product. It's designing the complete system around the model: **tools, data, state, verification, security, human oversight, and measurable outcomes**.
+I'm CTO and Head of Applied AI at **Snap eHealth**, following four years building its AI platform. I own Applied AI strategy, product architecture, and engineering delivery, and stay hands-on in **Python, TypeScript, APIs, and healthcare integrations**.
 
 My work spans **Python, scikit-learn, TypeScript, Go, APIs, distributed systems, AWS, and Kubernetes**. I'm especially interested in combining traditional predictive ML with LLM-powered agents so each component does the work it is best suited to do.
 
@@ -24,9 +24,9 @@ It helps reduce the guesswork of choosing a place, while clearly showing when cr
 
 ### Agentic systems and LLM applications
 
-At Snap, I lead engineering for **Sally**, an LLM-powered healthcare voice agent with real-time conversation, tool integration, background analysis, and structured visit-brief extraction. My work includes the architecture and production hardening required for patient-facing AI: **consent and authorization boundaries, deterministic application controls, structured outputs, scenario-based evaluations, and failure handling**.
+At Snap, I lead **Sally**, an LLM-powered healthcare voice agent supporting real-time browser and phone conversation, interruption handling, tool execution, background analysis, and structured visit-brief extraction. I designed the boundaries between model behavior and **deterministic consent, identity verification, authorization, and tool access**, and built scenario-based evaluation harnesses covering conversational behavior, structured outputs, safety rules, and failure handling.
 
-I also architect **autonomous software engineering systems** using **Codex, Symphony, and specialized agents** for implementation, testing, review, debugging, and remediation. The engineering challenge is not generating code; it's controlling what agents can do and establishing evidence that their work is safe to accept.
+At Snap, I also architected **Symphony**, a governed system coordinating **10 specialized engineering agents** across implementation, testing, review, debugging, and remediation. It uses isolated execution, signed leases, tool permissions, cost accounting, and audit trails; **humans approve every merge and deploy**.
 
 Key design concerns include:
 
@@ -83,7 +83,7 @@ The longer-term goal is to connect them: **predictive models provide evidence; a
 
 ## Engineering background
 
-I have more than a decade of engineering leadership experience and remain a hands-on builder. At Snap, I've led delivery across enterprise healthcare products and AI applications. Earlier, I built a large-scale automated test platform with **2,300+ tests**, compressing a roughly three-week regression process into approximately **30 minutes**.
+I remain a hands-on builder alongside my leadership work. At Snap, I led delivery of **four production applications in four months** across enterprise healthcare, workflow automation, and patient engagement. Previously, at FBS, I led a **12-person engineering organization for seven years** and reduced regression cycle time by **approximately 90%** through an automation-first transformation, earlier validation, and repeatable release controls.
 
 My engineering background includes distributed systems, APIs, cloud infrastructure, and production reliability. I apply that foundation to **building, evaluating, and operating AI systems**—with a particular focus on agentic applications and predictive machine learning.
 
@@ -95,4 +95,4 @@ I write about the systems I'm building and the engineering decisions behind them
 
 ## Connect
 
-[**LinkedIn**](https://www.linkedin.com/in/thomashow/) · [**GitHub**](https://github.com/warehousegang) · [**Website**](https://thomashoward.dev/)
+[**LinkedIn**](https://www.linkedin.com/in/thomashow/) · [**GitHub**](https://github.com/warehousegang) · [**Website**](https://thomashoward.dev/) · [**Résumé**](https://thomashoward.dev/resume/)

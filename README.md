@@ -8,6 +8,18 @@ I'm CTO at **Snap eHealth**, where I lead AI engineering across healthcare appli
 
 My work spans **Python, scikit-learn, TypeScript, Go, APIs, distributed systems, AWS, and Kubernetes**. I'm especially interested in combining traditional predictive ML with LLM-powered agents so each component does the work it is best suited to do.
 
+## BusyNow
+
+<a href="https://busynow.app/">
+  <img src="assets/busynow-logo-panel.svg" alt="BusyNow" width="520">
+</a>
+
+**Founder of BusyNow, a live software product running on AWS ECS.**
+
+I founded and built BusyNow and use it as a real-world environment for exploring cloud infrastructure, platform engineering, automation, and autonomous engineering systems.
+
+[Visit BusyNow](https://busynow.app/) · [About my work on BusyNow](https://thomashoward.dev/about/#busynow)
+
 ## Applied AI engineering
 
 ### Agentic systems and LLM applications
@@ -51,6 +63,7 @@ I've worked on specialized QA and SRE agents, structured findings, deterministic
 
 | System | Engineering focus |
 | --- | --- |
+| **[BusyNow](https://busynow.app/)** | Live software product running on AWS ECS; cloud infrastructure, platform engineering, automation, and autonomous engineering systems. |
 | **Sally — Conversational Healthcare AI** | LLM orchestration, real-time voice, tool execution, structured extraction, consent, evaluation, and reliability. |
 | **Symphony — Autonomous Engineering** | Multi-agent orchestration, isolated workers, execution boundaries, verification, cost controls, and human authorization. |
 | **Physician Referral Success Predictor** *(in development)* | Supervised classification, feature engineering, leakage prevention, calibration, and explainable referral predictions using synthetic data. |

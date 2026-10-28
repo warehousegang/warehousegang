@@ -14,7 +14,7 @@ My work spans **Python, scikit-learn, TypeScript, Go, APIs, distributed systems,
   <img src="assets/busynow-logo-panel.svg" alt="BusyNow" width="520">
 </a>
 
-**Founder of BusyNow, a software product that helps people choose nearby coffee shops, restaurants, and bars by comparing crowd information, opening hours, and distance.**
+**Founder of BusyNow, helping people see what’s busy nearby before heading out.**
 
 It helps reduce the guesswork of choosing a place, while clearly showing when crowd information is recent, historical, or unavailable.
 

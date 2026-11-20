@@ -1,10 +1,10 @@
 # Thomas Howard
 
-**CTO & Head of Applied AI · Agentic & Voice AI · RAG · Predictive ML · AI Evaluation & Safety**
+**Head of Applied AI · Agentic & Voice AI · RAG · Predictive ML · AI Evaluation & Safety**
 
 I build **production LLM agents and the controls that make them safe to ship**, with a focus on healthcare voice AI, agentic systems, retrieval-augmented generation (RAG), explainable predictive ML, and evaluation.
 
-I'm CTO and Head of Applied AI at **Snap eHealth**, following four years building its AI platform. I own Applied AI strategy, product architecture, and engineering delivery, and stay hands-on in **Python, TypeScript, APIs, and healthcare integrations**.
+I'm Head of Applied AI at **Snap eHealth**, following four years building its AI platform. I own Applied AI strategy, product architecture, and engineering delivery, and stay hands-on in **Python, TypeScript, APIs, and healthcare integrations**.
 
 My work spans **Python, scikit-learn, TypeScript, Go, APIs, distributed systems, AWS (Bedrock, ECS Fargate, Terraform), and previously Kubernetes**. I'm especially interested in combining traditional predictive ML with LLM-powered agents so each component does the work it is best suited to do.
 
